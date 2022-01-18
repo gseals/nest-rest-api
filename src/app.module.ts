@@ -5,7 +5,7 @@ import { ItemsController } from './items/items.controller';
 import { ItemsService } from './items/items.service';
 import { ItemsModule } from './items/items.module';
 import { MongooseModule } from '@nestjs/mongoose';
-import { Mongoose } from 'mongoose';
+// import { Mongoose } from 'mongoose';
 
 @Module({
   imports: [ItemsModule, MongooseModule.forRoot('')],
